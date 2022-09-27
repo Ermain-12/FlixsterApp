@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FlixsterApp</string>
+    <string name="orphan_first_kill">Orphan: First Kill</string>
+    <string name="after_escaping_from_an_estonian_psychiatric_facility_leena_klammer_travels_to_america_by_impersonating_esther_the_missing_daughter_of_a_wealthy_family_but_when_her_mask_starts_to_slip_she_is_put_against_a_mother_who_will_protect_her_family_from_the_murderous_child_at_any_cost">After escaping from an Estonian psychiatric facility, Leena Klammer travels to America by impersonating Esther, the missing daughter of a wealthy family. But when her mask starts to slip, she is put against a mother who will protect her family from the murderous “child” at any cost.</string>
+    <string name="movie_image_view">Movie Image View</string>
+</resources>
