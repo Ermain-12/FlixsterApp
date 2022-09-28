@@ -17,7 +17,7 @@ data class Movie(
     @SerializedName("poster_path")
     val posterPath: String
 ) {
-    val posterImageURL = "https://image.tmdb.org/t/w342$posterPath"
+    val posterImageURL = "https://image.tmdb.org/t/p/w500/$posterPath"
     companion object {
 
         fun fromJsonArray(movieJsonArray: JSONArray): List<Movie> {

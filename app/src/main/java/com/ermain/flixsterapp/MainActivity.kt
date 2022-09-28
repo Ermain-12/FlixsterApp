@@ -13,12 +13,13 @@ import com.codepath.asynchttpclient.AsyncHttpClient
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
 import org.json.JSONException
 
-private const val TAG = "MainActivity"
-private const val NOW_PLAYING =
-    "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed"
-private const val imageURL = "https://image.tmdb.org/t/"
 
 class MainActivity : AppCompatActivity() {
+
+    private val TAG = "MainActivity"
+    private val NOW_PLAYING =
+        "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed"
+    private val imageURL = "https://image.tmdb.org/t/"
 
     private lateinit var rvMovies: RecyclerView
     private val movies = mutableListOf<Movie>()
