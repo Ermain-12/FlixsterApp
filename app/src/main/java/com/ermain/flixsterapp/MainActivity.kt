@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
                 Log.e(TAG, "onFailure() $statusCode")
             }
 
+            @SuppressLint("NotifyDataSetChanged")
             override fun onSuccess(statusCode: Int, headers: Headers?, json: JSON?) {
                 Log.i(TAG, "onSuccess() data: $json")
                 try {
